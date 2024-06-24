@@ -8,7 +8,7 @@ gap: 64px;
 margin-top: 56px;
 `
 
-const TagTitulo = styled.h3`
+const TituloTag = styled.h3`
     color: #D9D9D9;
     font-size: 24px;
     margin: 0;
@@ -34,11 +34,11 @@ display: flex;
 gap:24px;
 justify-content: end;
 `
-const Tags = () => {
+const Tags = ({ setTag }) => {
     return <TagsContainer>
-        <TagTitulo>Buscar por tags:</TagTitulo>
+        <TituloTag>Buscar por tags:</TituloTag>
         <Div>
-            {tags.map((tag) => <Tag key={tag.id}>{tag.titulo}</Tag>)}
+            {tags.map((tag) => <Tag key={tag.id} onClick={() => setTag(tag.id)} >{tag.titulo}</Tag>)}
         </Div>
     </TagsContainer>
 }

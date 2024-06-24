@@ -10,10 +10,10 @@ img{
 }
 `
 
-const Header = () => {
+const Header = ({ filtro, setFiltro }) => {
     return <HeaderEstilizado>
         <img src="/img/logo.png" alt="Logo Space App" />
-        <Input/>
+        <Input setFiltro={setFiltro} />
     </HeaderEstilizado>
 }
 
