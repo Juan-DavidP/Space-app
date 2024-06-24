@@ -33,17 +33,17 @@ function Footer() {
 			<IconoContainer>
 				<li>
 					<a href="#">
-						<img src="/redes/facebook.svg" alt="" />
+						<img src="/img/redes/facebook.svg" alt="" />
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="/redes/twitter.svg" alt="" />
+						<img src="/img/redes/twitter.svg" alt="" />
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src="/redes/instagram.svg" alt="" />
+						<img src="/img/redes/instagram.svg" alt="" />
 					</a>
 				</li>
 			</IconoContainer>
